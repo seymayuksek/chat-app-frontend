@@ -1,0 +1,126 @@
+body{
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 120%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+
+#header{
+  background:linear-gradient(90deg, rgba(104,102,209,1) 0%,
+  rgba(137,119,219,1) 35%,
+  rgba(169,135,230,1) 100%);
+  border:1px solid rgba(128, 128, 128, 0.562);
+  border-top-right-radius: 25px;
+  border-top-left-radius:25px;
+  margin-top: 10%;
+}
+
+#title{
+  color:white;
+  font-size: 100%;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.messages{
+  border: 1px solid rgba(128, 128, 128, 0.562);
+  height:360px;
+  font-size: 75%;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.senderMessage{
+  background-color: #f1effd;
+  border-radius: 13px;
+  display:inline;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left:3%;
+  text-align: center;
+}
+
+.senderName{
+  margin-top: 2%;
+  margin-left: 2%;
+  text-align:center;
+  font-weight: bold;
+  display:inline-flex;
+}
+
+.my-message-div{
+  margin-top: 20px;
+}
+
+.receiver{
+  color: white;
+  background-color: #a284e4;
+  border-radius: 13px;
+  width:30px;
+  text-align: center;
+  padding: 1%;
+  margin-right: 3%;
+  display: inline;
+}
+
+.time-receiver{
+  display: inline;
+  color:rgb(121, 119, 119);
+}
+
+#text-box{
+  color:rgb(121, 119, 119);
+  background-color:#f1effd;
+  border:none;
+  border-radius: 15px;
+  padding: 0em;
+  padding-top: 1em;
+  padding-left: 1em;
+  width: 85%;
+  resize:none;
+  outline:none;
+}
+
+#send-button{
+  color:white;
+  background-color:#6766d0;
+  border:none;
+  border-radius: 15px;
+  padding:0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 12%;
+  position:relative;
+  bottom:18px;
+}
+
+#send-button:hover{
+  background-color:#a284e4
+}
+
+#send-button:active{
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1660px) {
+  body{
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

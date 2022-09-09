@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="header">
+        <p id="title">planet</p>
+    </div>
+
+    <div id="messagesBox" class="messages">
+        
+        <div style="display: inline;">
+            <div class="senderName">Person</div>
+            <div class="senderMessage">hi there</div>
+            <div class="time-receiver">15.13</div>
+        </div>
+        
+        <div class="my-message-div" align="right" >
+            <div class="time-receiver">15.13</div>
+            <div class="receiver">hello!</div>
+        </div>
+
+        <div class="my-message-div" align="right" >
+            <div class="time-receiver">15.14</div>
+            <div class="receiver">whats up?</div>
+        </div>
+        
+    </div>
+
+    <hr align="center" size="1px" style="opacity: 0.4;"></hr>
+
+    <div class="submit-box">
+        <textarea id="text-box" placeholder="Type message..."></textarea>
+        <button id="send-button" type="submit" onclick="send()">Send</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
